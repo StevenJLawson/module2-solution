@@ -1,0 +1,79 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+
+h2{
+	border: 1px solid black;
+	font-size: 120%;
+	width: 200px;
+	text-align: center;
+	float: right;	
+}
+
+p {
+padding-top: 30px;
+}
+
+.row {
+  width: 100%;
+
+}
+
+.col {		
+	float: left;
+
+}
+
+.section{
+	margin: 10px;
+	padding:10px;
+	border: 1px solid black;
+	background-color: #DDDDDD;
+	min-height: 200px;
+}
+
+#chicken {
+  background-color: #FF4444;
+}
+
+#sushi {
+  background-color: #44FF44;
+}
+
+#beef {
+  background-color: #2222DD;
+  color: white; 
+}
+
+/********** 992 px and above **********/
+@media (min-width: 992px){
+	.col{
+		width : 33.33%;
+	}
+}
+
+
+/**********tablet 768 991 **********/
+@media (min-width: 768px) and (max-width: 991px){
+	.col{
+		width : 50%;
+	}
+	.colfull{
+		width : 100%;
+	}
+}
+
+/**********mobile **********/
+@media (max-width: 767px){
+	.col{
+		width : 100%;
+	}
+}

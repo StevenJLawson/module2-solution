@@ -1,60 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
 <meta charset="utf-8">
-<title>Media Queries</title>
+<title>Course 4 Module 2</title>
 <style>
 
-/********** Base styles **********/
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
-#p1 {
-  background-color: #A52A2A;
-  width: 300px;
-  height: 300px;
-}
-#p2 {
-  background-color: #DEB887;
-  width: 50px;
-  height: 50px;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px){
-	#p1{
-		width : 80%;
-	}
-	#p2{
-		width: 150px;
-		height: 150px;
-	}
-}
-
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px){
-	#p1{
-		width : 50%;
-	}
-	#p2{
-		width: 100px;
-		height: 100px;
-	}
-}
 
 </style>
 </head>
 <body>
-<h1>Media Queries</h1>
-
-<p id="p1"></p>
-<p id="p2"></p>
+<h1>Our Menu</h1>
+<div class = "row">
+	<div class = "col">
+		<div class = "section">
+		<h2 id = "chicken">Chicken</h2>
+		<p id="p1">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+		</div>
+	</div>
+	<div class = "col">
+		<div class = "section">	
+		<h2 id = "beef">Beef</h2>
+		<p id="p2">Natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter natter  </p>
+		</div>
+	</div>
+	<div class = "col colfull">
+		<div class = "section">		
+		<h2 id = "sushi">Sushi</h2>
+		<p id="p3">Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)</p>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
